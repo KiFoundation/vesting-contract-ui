@@ -1,7 +1,8 @@
 const env = process.env.NODE_ENV;
 
+// TODO fill parameters values
 const bscTesnetConfig = {
-  tokenVestingContractAddress: "0x413e4bDdf4380560C71F33cf8c8C0d92dfAF4B28",
+  tokenVestingContractAddress: "TBA",
   explorerRootURL: "https://testnet.bscscan.com/",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
@@ -9,8 +10,9 @@ const bscTesnetConfig = {
   erc20ContractAbi: require("./assets/abi/ERC20.json"),
 };
 
+// TODO fill parameters values
 const goerliTesnetConfig = {
-  tokenVestingContractAddress: "0x6200e513eCF62B86Dfa7B4B8E8c68BcE10110738",
+  tokenVestingContractAddress: "TBA",
   explorerRootURL: "https://goerli.etherscan.io/",
   tokenVestingContractAbi: require("./assets/abi/TokenVesting.json"),
   tokenVestingContractBytecode: require("./assets/bytecode/TokenVesting.json")
@@ -18,6 +20,7 @@ const goerliTesnetConfig = {
   erc20ContractAbi: require("./assets/abi/ERC20.json"),
 };
 
+// TODO fill parameters values
 const mainnetConfig = {
   tokenVestingContractAddress: "TBA",
   explorerRootURL: "https://etherscan.io/",
